@@ -1,0 +1,11 @@
+@model hemsida1.Models.Pages.Homepage
+
+<h1>@Model.Headline</h1>
+
+<div style="font-size: 18px; font-family: Arial, sans-serif;">
+    @Html.Raw(Model.MainContent)
+</div>
+
+<div style="font-size: 16px; font-family: 'Times New Roman', serif; color: darkgray;">
+    @Html.Raw(Model.Body)
+</div>
